@@ -1,0 +1,16 @@
+{
+  "id": "doodlejumpclone",
+  "name": "Doodlejumpclone",
+  "tagline": "AI-powered productivity solution",
+  "description": "AI-powered doodlejumpclone application built for Aurora Market. Modern, responsive design with SaaS monetization.",
+  "category": "productivity",
+  "tags": ["ai", "productivity"],
+  "url": "https://auroramarket.org/doodlejumpclone",
+  "demo": "https://21leahcimhtiek-oss.github.io/doodlejumpclone",
+  "repo": "https://github.com/21leahcimhtiek-oss/doodlejumpclone",
+  "stack": ["Java", "Android"],
+  "status": "mvp",
+  "version": "1.0.0",
+  "author": "Aurora Rayes LLC",
+  "license": "MIT"
+}
