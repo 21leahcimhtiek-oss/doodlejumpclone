@@ -1,0 +1,11 @@
+{
+  "bundles": [
+    {
+      "id": "aurora-market-bundle",
+      "name": "Aurora Market Bundle",
+      "description": "Complete Aurora Market application suite",
+      "apps": ["doodlejumpclone"],
+      "discount_percent": 20
+    }
+  ]
+}
