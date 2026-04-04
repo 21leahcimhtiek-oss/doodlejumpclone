@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Java/Android
+*.class
+*.jar
+*.war
+*.apk
+*.aab
+build/
+.gradle/
+local.properties
