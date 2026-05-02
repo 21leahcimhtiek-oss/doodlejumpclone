@@ -39,6 +39,18 @@ MIT License - See LICENSE file for details
 ## 🌐 Domain
 https://auroramarket.org
 
+## 🚀 Deployment
+
+### Play Store release
+1. Configure app signing in Android Studio/Gradle.
+2. Build a signed Android App Bundle (`.aab`).
+3. Validate artifacts in `app/build/outputs/`.
+4. Upload the signed bundle to Google Play Console.
+
+## 🔐 Environment & Secrets
+No runtime environment variables are required.
+For CI/CD release automation, store signing credentials in repository secrets (for example: `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEY_ALIAS`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_PASSWORD`).
+
 ---
 
 Built with ❤️ by Aurora Rayes LLC

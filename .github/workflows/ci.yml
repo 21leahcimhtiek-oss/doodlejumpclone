@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Android project structure
+        run: |
+          test -f settings.gradle
+          test -f app/build.gradle
+          grep -q "compileSdkVersion" app/build.gradle
+          grep -q "applicationId" app/build.gradle
+      - name: Validate docs and metadata
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f COPYRIGHT
